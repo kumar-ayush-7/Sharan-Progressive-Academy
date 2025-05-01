@@ -150,6 +150,13 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+#enquiry iframe {
+    width: 100%; /* Full width on mobile */
+    max-width: 600px; /* Limit the width */
+    height: 100%
+    border: none;
+}
+
 /* Mobile Responsive */
 @media (max-width: 600px) {
     #location-gallery {
@@ -164,4 +171,8 @@ button:hover {
     .carousel {
         height: auto;
     }
+	
+	.teacher-grid {
+		flex-direction: column;
+	}
 }
