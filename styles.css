@@ -35,6 +35,7 @@ header {
     background: #FFC107;
 }
 
+
 /* Course Grid */
 .course-grid {
     display: grid;
@@ -59,8 +60,10 @@ header {
 }
 
 .course img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Make images take full width of container */
+    max-width: 300px; /* Limit the maximum size */
+    height: 200px; /* Fixed height to ensure consistency */
+    object-fit: cover; /* Prevent distortion while ensuring full coverage */
     border-radius: 5px;
 }
 

@@ -12,5 +12,5 @@ document.getElementById("nextBtn").addEventListener("click", () => {
 });
 
 function scrollToEnquiry() {
-    document.getElementById("enquiry").scrollIntoView({ behavior: "smooth" });
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 }
